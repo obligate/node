@@ -1,0 +1,11 @@
+npm install mongoose --save
+
+Schema中所支持的数据类型有
+String
+Number
+Date
+Buffer
+Boolean
+Mixed
+Objectid
+Array

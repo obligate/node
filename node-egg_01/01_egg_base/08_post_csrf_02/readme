@@ -1,0 +1,3 @@
+在/app/middleware创建auth.js中间件,设置全局变量ctx.state.csrf = ctx.csrf;
+在/config/default.config.js配置中间件auth
+在/app/views/home.html中的表单和隐藏域设置csrf的值

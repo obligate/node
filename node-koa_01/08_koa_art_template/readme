@@ -1,0 +1,8 @@
+npm init --yes
+npm install koa koa-router --save
+npm install art-template koa-art-template --save
+
+
+官   网： http://aui.github.io/art-template/
+中文文档： http://aui.github.io/art-template/zh-cn/docs/
+语   法： http://aui.github.io/art-template/zh-cn/docs/syntax.html

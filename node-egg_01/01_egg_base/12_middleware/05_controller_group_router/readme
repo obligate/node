@@ -1,0 +1,18 @@
+egg.js控制器分组 以及路由里面配置中间件，在路由中配置
+
+  var adminAuth=app.middleware.adminAuth(); // 对应的是middleware/admin_auth.js的文件
+
+  //后台
+
+ router.get('/admin/user',adminAuth, controller.admin.user.index);  
+
+
+ router.get('/admin/article',adminAuth, controller.admin.article.index);  
+ router.get('/admin/article/add',adminAuth, controller.admin.article.add);  
+ router.get('/admin/article/edit', adminAuth,controller.admin.article.edit);  
+
+
+ router.get('/admin/product', adminAuth,controller.admin.product.index);  
+ router.get('/admin/product/add', adminAuth,controller.admin.product.add);  
+ router.get('/admin/product/edit',adminAuth, controller.admin.product.edit);  
+

@@ -1,0 +1,48 @@
+Egg.js 中Session 的使用
+
+目录
+一、Session 简单介绍
+二、Session 的工作流程
+三、koa-session 的使用
+四、Cookie 和Session 区别
+
+
+一、Session 简单介绍
+    session 是另一种记录客户状态的机制，不同的是Cookie 保存在客户端浏览器中，而session 保存在服务器上,session是基于cookie的
+二、Session 的工作流程
+    当浏览器访问服务器并发送第一次请求时，服务器端会创建一个session 对象，生成一个类似于key,value 的键值对， 然后将key(cookie)返回到浏览器(客户)端，浏览器下次再访问时，携带key(cookie)，找到对应的session(value)。
+三、Egg.js 中session 的使用:
+egg.js 中session 基于egg-session 内置了对session 的操作
+    设置:
+        this.ctx.session.userinfo={
+            name:'张三',
+            age:'20'
+        }
+    获取：
+        var userinfo=this.ctx.session
+    Session 的默认设置：
+        exports.session = {
+            key: 'EGG_SESS',
+            maxAge: 24 * 3600 * 1000, // 1 day
+            httpOnly: true,
+            encrypt: true
+        };
+四、Session 在config.default.js 中的配置
+    config.session={
+        key:'SESSION_ID',
+        maxAge:864000,
+        renew: true //延长会话有效期
+    }
+五、Cookie 和Session 区别
+    1、cookie 数据存放在客户的浏览器上，session 数据放在服务器上。
+    2、cookie 相比session 没有session 安全，别人可以分析存放在本地的COOKIE 并进行COOKIE欺骗。
+    3、session 会在一定时间内保存在服务器上。当访问增多，会比较占用你服务器的性能考虑到减轻服务器性能方面，应当使用COOKIE。
+    4、单个cookie 保存的数据不能超过4K，很多浏览器都限制一个站点最多保存20 个cookie。
+
+
+
+
+
+    cnpm i
+    npm run dev
+    默认访问路径： http://127.0.0.1:7001

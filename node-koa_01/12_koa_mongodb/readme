@@ -1,0 +1,5 @@
+npm install mongodb --save
+
+
+Refer：
+http://mongodb.github.io/node-mongodb-native/

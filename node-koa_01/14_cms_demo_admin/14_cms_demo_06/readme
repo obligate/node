@@ -1,0 +1,54 @@
+koa cms 退出登录功能  左侧点击到的分类选中功能  后台管理首页无法tab切换bug 以及数据库获取管理员列表
+
+目录
+一、退出登录功能
+二、左侧点击到的分类选中功能
+三、后台管理首页左侧无法tab 切换bug
+四、数据库获取管理员列表
+一、退出登录功能
+1、在导航显示登录信息
+    //全局的G 对象
+    ctx.state.G={
+    userinfo:ctx.session.userinfo
+    };
+2、模板中显示信息
+    {{G.userinfo.username}}
+3、退出
+    router.get('/loginOut', async (ctx)=>{
+        ctx.session.userinfo=null;
+        ctx.redirect(ctx.state.__ROOT__+'/admin/login')
+    });
+二、左侧点击到的分类选中功能
+    var requestUrl=url.parse(ctx.request.url).pathname.substring(1);
+    var splitUrl=requestUrl.split('/');
+    //全局的G 对象
+    ctx.state.G={
+        url:splitUrl,
+        userinfo:ctx.session.userinfo,
+        prevPage:ctx.request.headers['referer']
+    };
+
+<li class="{{if G.url[1]=='manager'}} active open {{/if}}">
+<a href="#" class="dropdown-toggle">
+<i class="icon-user-md"></i>
+<span class="menu-text"> 管理员管理</span>
+<b class="arrow icon-angle-down"></b>
+</a>
+<ul class="submenu" >
+<li class="{{if !G.url[2]}} active {{/if}}">
+<a href="{{__ROOT__}}/admin/manager" >
+<i class="icon-double-angle-right"></i>
+管理员列表
+</a>
+</li>
+<li class="{{if G.url[2]=='add'}} active {{/if}}">
+<a href="{{__ROOT__}}/admin/manager/add">
+<i class="icon-double-angle-right"></i>
+增加管理员
+</a>
+</li>
+</ul>
+</li>
+三、后台管理首页左侧无法tab 切换bug
+   在admin/index添加footer  {{include 'admin/public/footer.html'}}
+四、数据库获取管理员列表

@@ -1,0 +1,51 @@
+
+三、框架默认中间件的配置
+    config.bodyParser={
+        jsonLimit: '10mb' //Default is 1mb.
+    }
+
+
+
+四、Egg.js 中使用koa 的中间件（规范的Koa 的中间件）
+在Egg.js 框架里面可以非常容易的引入Koa 中间件生态。
+使用koa-compress 开启服务器Gzip 压缩功能，以koa-compress 为例，在Koa 中使用的方法：
+    const koa = require('koa');
+    const compress = require('koa-compress');
+    const app = koa();
+    const options = { threshold: 2048 };
+    app.use(compress(options));
+    我们按照框架的规范来在应用中加载这个Koa 的中间件：
+    // app/middleware/compress.js
+    // koa-compress 暴露的接口(`(options) => middleware`)和框架对中间件要求一致
+    module.exports = require('koa-compress');
+    config.middleware = ['compress'];
+    config.compress = {
+        threshold: 1024 //它支持指定只有当body 大于配置的threshold 时才进行gzip 压缩
+    };
+
+
+
+
+五、Egg.js 中使用koa 的中间件（非规范的Koa 中间件）
+    // config/config.default.js
+    module.exports = {
+        webpack: {
+        compiler: {},
+        others: {},
+        },
+    };
+    // app/middleware/webpack.js
+    const webpackMiddleware = require('some-koa-middleware');
+    module.exports = (options, app) => {
+        return webpackMiddleware(options.compiler, options.others);
+    }
+
+
+
+    
+六、Egg.js 中间件的通用配置
+无论是应用层加载的中间件还是框架自带中间件，都支持几个通用的配置项：
+    enable：控制中间件是否开启。
+    match：设置只有符合某些规则的请求才会经过这个中间件。
+    ignore：设置符合某些规则的请求不经过这个中间件。
+    https://eggjs.org/zh-cn/basics/middleware.html

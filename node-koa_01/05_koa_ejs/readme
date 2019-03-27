@@ -1,0 +1,31 @@
+npm init --yes
+npm install koa koa-router koa-views ejs --save
+
+一、Koa 中使用ejs 模板的使用
+1、安装koa-views 和ejs
+    1. 安装koa-views npm install --save koa-views / cnpm install --save koa-views
+    2. 安装ejs npm install ejs --save / cnpm install ejs --save
+2、引入koa-views 配置中间件
+    const views = require('koa-views');
+    02_db.use(views('views', { map: {html: 'ejs' }}));
+3、Koa 中使用ejs：
+    router.get('/add',async (ctx)=>{
+        let title = 'hello koa2';
+        await ctx.render(index',{ title  });
+    });
+4、Ejs 引入模板
+    <% include header.ejs %>
+5、Ejs 绑定数据
+    <%=h%>
+6、Ejs 绑定html 数据
+    <%-h%>
+7、Ejs 模板判断语句
+    <% if(true){ %>
+        <div>true</div>
+    <%} else{ %>
+        <div>false</div>
+    <%} %>
+8、Ejs 模板中循环数据
+    <%for(var i=0;i<list.length;i++) { %>
+        <li><%=list[i] %></li>
+    <%}%>

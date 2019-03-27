@@ -1,0 +1,3 @@
+
+验证码的访问地址： http://localhost:8001/admin/login/code
+添加失败的中转页面 admin/error

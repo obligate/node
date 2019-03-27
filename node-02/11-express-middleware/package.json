@@ -1,0 +1,17 @@
+{
+  "name": "11-express-middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01express 应用级中间件.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}

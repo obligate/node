@@ -1,0 +1,11 @@
+一、koa 应用生成器
+通过应用koa 脚手架生成工具可以快速创建一个基于koa2 的应用的骨架。
+    1、全局安装
+        npm install koa-generator -g
+    2、创建项目
+        koa koa_demo
+    3、安装依赖
+        cd koa_demo
+        npm install
+    4、启动项目
+        npm start

@@ -1,0 +1,13 @@
+npm init --yes
+npm install koa   --save
+npm install koa-router --save
+
+https://www.npmjs.com/package/koa-router
+
+es6:
+1. let const
+2. 模板字符串
+3. 属性的简写，方法的简写
+4. 箭头函数
+5. promise
+6. async await

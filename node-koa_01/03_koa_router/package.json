@@ -1,0 +1,17 @@
+{
+  "name": "03_koa_router",
+  "version": "1.0.0",
+  "description": "npm init --yes\r npm install koa --save\r npm install koa-router --save",
+  "main": "index.js",
+  "dependencies": {
+    "koa": "^2.6.1",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

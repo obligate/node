@@ -1,0 +1,10 @@
+egg.js控制器分组 以及config.default.js配置中间件
+在config.default.js中配置
+  // 配置中间件
+  config.middleware = ['auth','jsonp','compress','adminAuth'];
+  
+  //对后台管理的页面进行通用配置
+
+  config.adminAuth={
+    match:'/admin'
+  } 

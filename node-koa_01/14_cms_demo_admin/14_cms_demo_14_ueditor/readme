@@ -1,0 +1,42 @@
+Koa2 百度富文本编辑器ueditor 的配置使用
+目录
+一、Ueditor 介绍
+二、Koa 中使用koa2-ueditor
+三、koa2-ueditor 的一些配置
+
+一、Ueditor 介绍
+    UEditor 是由百度web 前端研发部开发所见即所得富文本web 编辑器，具有轻量，可定制，注重用户体验等特点，开源基于MIT 协议，允许自由使用和修改代码。
+    官网：http://ueditor.baidu.com/
+    第三方sdk：http://ueditor.baidu.com/website/thirdproject.html
+二、Koa 中使用koa2-ueditor
+    1. 安装Koa2 的koa2-ueditor：
+    npm install koa2-ueditor --save / cnpm install koa2-ueditor --save
+    2. 手动下载koa2-ueditor
+    下载地址：https://github.com/sealice/koa2-ueditor
+    或者https://github.com/htzhanglong/koa2-ueditor
+    下载完成以后把官方例子中的example->public->ueditor 复制到我们的项目里面
+    3. 对应的koa 业务逻辑中配置koa2-ueditor 模块：
+    const ueditor = require('koa2-ueditor')
+    router.all('/editor/controller', ueditor(['public', {
+        "imageAllowFiles": [".png", ".jpg", ".jpeg"]
+        "imagePathFormat": "/upload/ueditor/image/{yyyy}{mm}{dd}/{filename}"
+    }]))
+    4. 在模板中引入ueditor 静态文件
+    <script type="text/javascript" charset="utf-8" src="/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/ueditor/ueditor.all.min.js"> </script>
+    <script type="text/javascript" charset="utf-8" src="/ueditor/lang/zh-cn/zh-cn.js"></script>
+    5、用到的文本框替换成下面代码
+    <script id="editor" type="text/plain" style="width:800px;height:300px;"></script>
+    6、实例化编辑器
+    var ue = UE.getEditor('editor'); //注意和第五条的id 对应起来
+    7、编辑器放入内容
+    var ueditor = UE.getEditor('editor');
+    ueditor.addListener("ready", function (){ /*注意*/
+        // editor 准备好之后才可以使用
+        ueditor.setContent(`{{@list.content}}`);
+    });
+三、koa2-ueditor 的一些配置
+    ueditor 非常强大，可以自定义很多参数，找到ueditor 里面的ueditor.config.js 进行配置
+    配置上传资源接口：serverUrl *安全
+    配置导航显示内容：toolbars
+    配置自动长高：autoHeightEnabled:false

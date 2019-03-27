@@ -1,0 +1,292 @@
+{
+  "keys": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\config\\config.default.js",
+  "middleware": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\config\\config.default.js",
+  "view": {
+    "mapping": {
+      ".html": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\config\\config.default.js"
+    },
+    "root": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "api": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\config\\config.default.js",
+  "session": {
+    "maxAge": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "mode": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "ejs": {
+    "root": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "cache": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-view-ejs\\config\\config.local.js",
+    "debug": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "compileDebug": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "delimiter": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-view-ejs\\config\\config.default.js",
+    "strict": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg-view-ejs\\config\\config.default.js"
+  },
+  "env": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+  "name": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "version": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "description": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "private": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-ejs": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "silly-datetime": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "webstorm-disable-index": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "stop": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "dev": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "debug": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "test": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "cov": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "lint": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "ci": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "autod": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "url": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "license": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "strict": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "depth": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "env": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "level": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "logging": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "port": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "E:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\06_spider_02_extend\\node_modules\\egg\\config\\config.default.js"
+}

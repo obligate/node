@@ -1,0 +1,40 @@
+Egg.js 中Cookie 的使用
+目录
+    1、Cookie 简介 
+    2、Egg.js 中Cookie 的设置和获取 
+    3、Egg.js 中Cookie 参数options 
+    4、Egg.js 中设置中文Cookie 
+1、Cookie 简介
+    ● cookie 是存储于访问者的计算机中的变量。可以让我们用同一个浏览器访问同一个域名的时候共享数据。
+    ● HTTP 是无状态协议。简单地说，当你浏览了一个页面，然后转到同一个网站的另一个页面，服务器无法认识到这是同一个浏览器在访问同一个网站。每一次的访问，都是没有任何关系的。
+2、Egg.js 中Cookie 的设置和获取
+    Cookie 设置语法： ctx.cookies.set(key, value, options)
+                      this.ctx.cookies.set('name','zhangsan');
+    Cookie 获取语法：ctx.cookies.get(key, options)
+                    this.ctx.cookies.get('name')
+    清除Cookie：
+                    this.ctx.cookies.set('name',null);
+    或者设置maxAge 过期时间为0
+3、Egg.js 中Cookie 参数options
+    https://eggjs.org/en/core/cookie-and-session.html#container
+    设置cookie 建议的写法：
+    ctx.cookies.set(key, value, {
+        maxAge:24 * 3600 * 1000,
+        httpOnly: true, // by default it's true
+        encrypt: true, // cookies are encrypted during network transmission
+    });
+    ctx.cookies.get('frontend-cookie', {
+        encrypt: true
+    });
+4、Egg.js 中设置中文Cookie
+    第一种解决方案：
+        console.log(new Buffer('hello, world!').toString('base64'));
+        // 转换成base64 字符串：aGVsbG8sIHdvcmxkIQ==
+        console.log(new Buffer('aGVsbG8sIHdvcmxkIQ==', 'base64').toString());
+        // 还原base64 字符串：hello, world!
+    第二种解决方案：
+        ctx.cookies.set(key, value, {
+            maxAge:24 * 3600 * 1000,
+            httpOnly: true, // by default it's true
+            encrypt: true, // cookies are encrypted during network transmission
+        });

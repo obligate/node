@@ -1,0 +1,10 @@
+npm install -g pm2
+pm2 init                                                      # 生成ecosystem.config.js文件
+
+pm2 start ecosystem.config.js                                 # start
+pm2 start ecosystem.config.js --env production
+
+pm2 restart ecosystem.config.js --update-env                   # refresh the environment
+pm2 restart ecosystem.config.js --env production --update-env  # switch the environment
+
+# https://pm2.io/doc/en/runtime/guide/ecosystem-file/#updating-the-environment

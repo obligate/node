@@ -1,0 +1,291 @@
+{
+  "keys": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\config\\config.default.js",
+  "session": {
+    "key": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\config\\config.default.js",
+    "maxAge": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\config\\config.default.js",
+    "httpOnly": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\config\\config.default.js",
+    "encrypt": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\config\\config.default.js",
+    "renew": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\config\\config.default.js"
+  },
+  "middleware": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\config\\config.default.js",
+  "view": {
+    "mapping": {
+      ".html": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\config\\config.default.js"
+    },
+    "root": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js",
+    "cache": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.local.js",
+    "defaultExtension": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js",
+    "defaultViewEngine": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js",
+    "protocolWhiteList": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js",
+      "useSession": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js",
+      "ignoreJSON": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js",
+      "cookieName": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js",
+      "sessionName": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js",
+      "headerName": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js",
+      "bodyName": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js",
+      "queryName": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js",
+      "value": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.local.js",
+      "maxAge": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js",
+      "includeSubdomains": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js",
+      "value": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js",
+      "value": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js",
+      "policy": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js",
+      "checkAddress": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-security@2.4.0@egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "templatePath": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "dirs": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "queryField": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieField": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.default.js",
+      "development": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-schedule@3.4.0@egg-schedule\\config\\config.default.js",
+      "file": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-schedule@3.4.0@egg-schedule\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "mode": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "autoFields": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "fieldSize": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "fields": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "fileSize": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "files": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "whitelist": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "tmpdir": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-development@2.4.1@egg-development\\config\\config.default.js",
+    "ignoreDirs": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-development@2.4.1@egg-development\\config\\config.default.js",
+    "fastReady": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-development@2.4.1@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-development@2.4.1@egg-development\\config\\config.default.js",
+    "overrideDefault": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-development@2.4.1@egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-logrotator@3.0.4@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-logrotator@3.0.4@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-logrotator@3.0.4@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-logrotator@3.0.4@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-logrotator@3.0.4@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-logrotator@3.0.4@egg-logrotator\\config\\config.default.js",
+    "maxDays": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-logrotator@3.0.4@egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "dir": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "dynamic": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "preload": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "buffer": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "maxFiles": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js"
+  },
+  "ejs": {
+    "root": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-view-ejs@2.0.0@egg-view-ejs\\config\\config.default.js",
+    "cache": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-view-ejs@2.0.0@egg-view-ejs\\config\\config.local.js",
+    "debug": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-view-ejs@2.0.0@egg-view-ejs\\config\\config.default.js",
+    "compileDebug": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-view-ejs@2.0.0@egg-view-ejs\\config\\config.default.js",
+    "delimiter": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-view-ejs@2.0.0@egg-view-ejs\\config\\config.default.js",
+    "strict": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg-view-ejs@2.0.0@egg-view-ejs\\config\\config.default.js"
+  },
+  "env": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+  "name": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+  "proxy": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+  "protocolHeaders": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+  "ipHeaders": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+  "hostHeaders": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+  "pkg": {
+    "name": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "version": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "description": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "private": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "egg-scripts": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "egg-view-ejs": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "autod-egg": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "egg-bin": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "egg-ci": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "egg-mock": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "eslint": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "eslint-config-egg": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "webstorm-disable-index": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "stop": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "dev": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "debug": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "test": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "test-local": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "cov": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "lint": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "ci": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "autod": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "url": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+    },
+    "author": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "license": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+  },
+  "baseDir": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+  "HOME": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+  "rundir": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "notFound": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "sitefile": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "middlewares": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "httpClient": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "encoding": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "formLimit": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "jsonLimit": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "strict": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "depth": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "parameterLimit": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "encoding": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "env": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "level": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "consoleLevel": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "outputJSON": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "buffer": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "appLogName": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "coreLogName": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "agentLogName": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "errorLogName": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "request": {
+      "timeout": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "maxSockets": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "maxSockets": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "logging": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+  "workerStartTimeout": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "port": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+      "hostname": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js",
+    "responseTimeout": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+  },
+  "onClientError": "e:\\Work\\MyCode\\webstorm\\node\\node-egg_01\\01_egg_base\\11_session\\node_modules\\_egg@2.13.0@egg\\config\\config.default.js"
+}

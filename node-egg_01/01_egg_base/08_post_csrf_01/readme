@@ -1,0 +1,29 @@
+Egg.js Post 提交数据、Egg.js 安全机制 CSRF 的防范、以及配置模板全局变量
+
+目录
+1、Egg 安全机制CSRF 的防范
+2、Egg Post 提交数据
+3、Egg 配置模板全局变量
+
+1、Egg 安全机制CSRF 的防范
+    http://eggjs.org/zh-cn/core/security.html
+2、Egg Post 提交数据
+    1. 提交数据
+        <form action="/news/doAdd?_csrf=<%=csrf%> " method="POST">
+            用户名: <input type="text" name="username" /> <br><br>
+            密码: <input type="text" name="password" type="password" />
+            <button type="submit">提交</button>
+        </form>
+    2、提交数据的另一种方案
+        <form action="/news/doAdd> " method="POST">
+            <input type="hidden" name="_csrf" value="<%=csrf%>">
+            用户名: <input type="text" name="username" /> <br><br>
+            密码: <input type="text" name="password" type="password" />
+            <button type="submit">提交</button>
+        </form>
+    3、获取数据(egg.js 获取数据不需要配置中间件直接通过下面方式获取)
+        this.ctx.request.body
+    4、获取csrf 的值
+        this.ctx.csrf
+3、Egg 配置模板全局变量
+        ctx.state.csrf=ctx.csrf; //设置全局变量

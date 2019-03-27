@@ -1,0 +1,7 @@
+//清理cookies1
+this.ctx.cookies.set('userinfo',null);
+
+//清理cookies2
+this.ctx.cookies.set('userinfo',null,{
+   maxAge:0
+});

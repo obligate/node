@@ -1,0 +1,22 @@
+{
+  "name": "09_koa_cookie",
+  "version": "1.0.0",
+  "description": "npm init --yes\r npm install koa koa-router --save\r npm install art-template koa-art-template --save\r npm install koa-bodyparser --save\r npm install koa-static --save",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "art-template": "^4.13.1",
+    "koa": "^2.6.1",
+    "koa-art-template": "^1.1.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.9.0",
+    "koa-static": "^5.0.0",
+    "mongodb": "^3.1.8"
+  }
+}

@@ -1,0 +1,13 @@
+Koa Cms 分类状态修改 以及封装公共的删除功能  以及MongoDb数据库的导入导出
+
+一、Koa Cms 修改分类状态以及封装公共的删除方法
+    注意：公共的删除需要记录上一页从哪里过来。
+    ctx.request.headers['referer']
+二、MongoDb 数据库的导出导入
+    在Mongodb 中我们使用mongodump 命令来备份MongoDB 数据。该命令可以导出所有数据
+    到指定目录中。mongodump 命令可以通过参数指定导出的数据量级转存的服务器。使用
+    mongorestore 命令来恢复备份的数据。
+    导出：
+        mongodump -h dbhost -d dbname -o dbdirectory
+    导入：
+        mongorestore -h dbhost -d dbname path

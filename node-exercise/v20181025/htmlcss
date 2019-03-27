@@ -1,0 +1,73 @@
+<!DOCTYPE html>  h5标准
+html
+head
+    meta 编码，刷新，跳转，keywords,description,X-UA-COMPATIBLE
+    title
+    link shortcut icon  rel="stylesheet"
+    script
+    style
+body
+    块级标签：占一行  h系列（加大加粗），p（段落之间有间距），div(白板）,ul ol dl  table
+    行内标签：有多少占多少，不能设置宽度，高度，如果要设置，需要设置display:inline-block;a img span input系列
+    input type="text" value="默认值" name=""
+    input type="password" value="默认值" name=""
+    input type="button" value="显示值" 默认不起任何作用
+    input type="submit" value="显示值" 需要和表单一起使用 form action="" method="" enctype="multipart/form-data"
+    input type="reset" value="重置"
+    input type="file" multiple
+    男 input type="radio" name="gender" value="1"
+    男 input type="radio" name="gender" value="1" checked="checked"
+    男 input type="radio" name="gender" value="1"
+    足球 input type="checkbox" name=favor value="1"
+    足球 input type="checkbox" name=favor value="1" checked="checked"
+    足球 input type="checkbox" name=favor value="1"
+    足球 input type="checkbox" name=favor value="1"
+
+    textarea
+    select size multiple name="city"
+    option value="1"    bj
+    option value="1"    bj
+    option value="1"  selected="selectd" bj
+    option value="1"    bj
+
+    a href跳转  #id 锚点
+    img src title  alt
+    ul li
+    ol li
+    dl dt dd
+    table
+    thead tr th
+    tbody tr td
+
+css
+    选择器
+        标签选择器 div{}
+        id选择器   #id{}
+        class选择器 .class{}  class="class"
+        层级选择器，用空格分开  .c1 .c2
+        组合选择器, 逗号分开   .c1,.c2
+        属性选择器  .c1[type="text"]
+     基本属性
+        heigth
+        width
+        line-heigth
+        text-align
+        margin
+        padding
+        color
+        font-size
+        font-weight
+        background-color
+        background-image
+        background-repeat
+        background-position-x
+        background-position-y
+        overflow hidden auto
+        position fixed relative absolute
+        top
+        right
+        bottom
+        left
+        z-index
+        opacity
+        

@@ -1,0 +1,31 @@
+npm init --yes
+npm install koa koa-router --save
+npm install art-template koa-art-template --save
+npm install koa-bodyparser --save
+npm install koa-static --save
+
+
+
+一、Cookie 简介
+    1. cookie 是存储于访问者的计算机中的变量。可以让我们用同一个浏览器访问同一个域名的时候共享数据。
+    2. HTTP 是无状态协议。简单地说，当你浏览了一个页面，然后转到同一个网站的另一个页面，服务器无法认识到这是同一个浏览器在访问同一个网站。每一次的访问，都是没有任何关系的。
+
+二、Koa Cookie 的使用
+    1、Koa 中设置Cookie 的值
+        ctx.cookies.set(name, value, [options])
+        通过options 设置cookie name 的value:
+            maxAge               一个数字表示从Date.now() 得到的毫秒数
+            expires              cookie 过期的Date
+            path                 cookie 路径, 默认是'/'
+            domain               cookie 域名
+            secure               安全cookie 默认false，设置成true 表示只有https 可以访问
+            httpOnly             是否只是服务器可访问cookie, 默认是true
+            overwrite            一个布尔值，表示是否覆盖以前设置的同名的cookie (默认是false). 如果是true, 在同
+       一个请求中设置相同名称的所有Cookie（不管路径或域） 是否在设置此Cookie 时从Set-Cookie 标头中过滤掉。
+
+    2、Koa 中获取Cookie 的值
+       ctx.cookies.get('name');
+
+三、Koa 中设置中文Cookie
+    console.log(new Buffer('hello, world!').toString('base64'));// 转换成base64 字符串：aGVsbG8sIHdvcmxkIQ==
+    console.log(new Buffer('aGVsbG8sIHdvcmxkIQ==', 'base64').toString());// 还原base64 字符串：hello, world!

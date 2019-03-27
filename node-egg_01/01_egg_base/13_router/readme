@@ -1,0 +1,49 @@
+Egg.js【路由进阶】路由的几种写法、路由重定向、路由分组（路由映射）
+
+一、路由的几种写法
+二、路由重定向
+三、路由分组（路由映射）
+
+
+一、路由的几种写法
+    见：https://eggjs.org/zh-cn/basics/router.html
+二、路由重定向
+    路由内部重定向：例如： router-bac.js
+        module.exports = app => {
+            app.router.get('index', '/home/index', app.controller.home.index);
+            app.router.redirect('/', '/home/index', 302);
+        };
+    路由外部重定向,例如controller->news.js
+        // app/router.js
+        module.exports = app => {
+            app.router.get('/search', app.controller.search.index);
+        };
+        // app/controller/search.js
+        exports.index = async ctx => {
+            const type = ctx.query.type;
+            const q = ctx.query.q || 'nodejs';
+            if (type === 'bing') {
+                ctx.redirect(`http://cn.bing.com/search?q=${q}`);
+            } else {
+                ctx.redirect(`https://www.google.co.kr/search?q=${q}`);
+            }
+        };
+        // curl http://localhost:7001/search?type=bing&q=node.js
+        // curl http://localhost:7001/search?q=node.js
+三、路由分组（路由映射）
+我们并不建议把路由规则逻辑散落在多个地方，会给排查问题带来困扰。
+    // app/router.js
+    module.exports = app => {
+        require('./router/news')(app);
+        require('./router/admin')(app);
+    };
+    // app/router/news.js
+    module.exports = app => {
+        app.router.get('/news/list', app.controller.news.list);
+        app.router.get('/news/detail', app.controller.news.detail);
+    };
+    // app/router/admin.js
+    module.exports = app => {
+        app.router.get('/admin/user', app.controller.admin.user);
+        app.router.get('/admin/log', app.controller.admin.log);
+    };

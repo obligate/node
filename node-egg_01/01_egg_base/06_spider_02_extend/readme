@@ -1,0 +1,6 @@
+npm run dev
+npm i silly-datetime --save
+
+
+需要在app中创建extend
+https://eggjs.org/zh-cn/basics/extend.html

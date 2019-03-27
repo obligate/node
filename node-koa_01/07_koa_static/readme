@@ -1,0 +1,4 @@
+npm init --yes
+npm install koa koa-router --save
+npm install koa-views ejs koa-bodyparser --save
+npm install koa-static --save

@@ -1,0 +1,13 @@
+Egg.js 定时任务、以及定时任务结合eggcurl、cheerio 模块实现类似360 的网站监控
+
+一、定时任务官方文档
+可以让我们定时的去执行一些操作。比如定时的检测网站是否被篡改，定时的更新缓存、定时的爬取数据等。
+https://eggjs.org/zh-cn/basics/schedule.html
+
+二、cheerio 模块
+cheerio 是nodejs 的抓取页面模块，为服务器特别定制的，快速、灵活、实施的jQuery 核心实现。适合各种Web 爬虫程序。
+通俗的讲：cheerio 模块可以让我们用jquery 语法来解析爬取的网页数据。
+https://www.npmjs.com/package/cheerio
+
+
+三、定时任务结合egg curl、cheerio 模块实现类似360 的网站监控。

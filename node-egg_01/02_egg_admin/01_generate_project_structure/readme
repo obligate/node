@@ -1,0 +1,6 @@
+$ npm i egg-init -g
+$ egg-init egg-example --type=simple
+$ cd egg-example
+$ npm 
+$ npm run dev
+$ open localhost:7001

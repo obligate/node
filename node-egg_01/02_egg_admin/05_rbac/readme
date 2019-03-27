@@ -1,0 +1,37 @@
+一、RBAC 权限管理功能演示
+    基于角色的权限访问控制（Role-Based Access Control）。在RBAC 中，权限与角色相关联，
+    用户通过成为适当角色的成员而得到这些角色的权限。这就极大地简化了权限的管理。
+   
+二、RBAC 实现流程
+    1、实现角色的增加修改删除
+    2、实现用户的增加修改删除，增加修改用户的时候需要选择角色
+    3、实现权限的增加修改删除（页面菜单）
+    4、实现角色授权功能
+    5、判断当前登录的用户是否有访问菜单的权限
+    6、根据当前登录账户的角色信息动态显示左侧菜单
+
+
+
+1、实现角色的增加修改删除 
+mongo数据恢复
+```
+mongodump -h dbhost -d dbname -o dbdirectory -u admin -p 123456   #备份导出
+mongorestore -h dbhost -d dbname path          #还原导入
+```
+公共方法的封装到Controller/admin/base.js中，例如
+公共删除 delete
+公共改变状态 changeStatus
+
+
+获取Refer放到中间件中middleware/adminauth.js,设置全局变量 ctx.state.prevPage =ctx.request.headers['referer'];   //上一页的地址
+
+
+2、实现用户的增加修改删除，增加修改用户的时候需要选择角色
+join: controller/admin/manager.js
+ $lookup:{
+        from:'role',
+        localField:'role_id',
+        foreignField:'_id',
+        as:'role'
+
+      }    

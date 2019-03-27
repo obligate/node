@@ -1,0 +1,19 @@
+
+    router.js 路由中使用中间件
+    1、新建middleware/auth.js
+        module.exports=(option,app)=>{
+            return async function auth(ctx,next){
+            console.log(option);
+            console.log(new Date());
+            await next();
+            }
+        }
+    2、router.js 挂载指定的中间件
+        module.exports = app => {
+            const { router, controller } = app;
+            //路由中获取中间件
+            const auth = app.middleware.auth({ attr: 'this is router.js middleware' });
+            router.get('/', auth,controller.home.index);
+            router.get('/news', controller.news.index);
+            router.get('/shop', controller.shop.index);
+        };

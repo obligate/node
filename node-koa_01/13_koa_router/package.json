@@ -1,0 +1,22 @@
+{
+  "name": "13_koa_router",
+  "version": "1.0.0",
+  "description": "一、koa 应用生成器\r 通过应用koa 脚手架生成工具可以快速创建一个基于koa2 的应用的骨架。\r     1、全局安装\r         npm install koa-generator -g\r     2、创建项目\r         koa koa_demo\r     3、安装依赖\r         cd koa_demo\r         npm install\r     4、启动项目\r         npm start",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "art-template": "^4.13.1",
+    "koa": "^2.6.1",
+    "koa-art-template": "^1.1.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.9.0",
+    "koa-static": "^5.0.0",
+    "mongodb": "^3.1.8"
+  }
+}
